@@ -1,0 +1,927 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img,
+iframe {
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.btn{
+    width: 161px;
+    line-height: 60px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blue-btn{
+    background: var(--blue);
+    color: #fff;
+    border: none;
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.white{
+    background: #fff;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.section__title{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section__des{
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+:root{
+    --blue:#395ce0;
+}
+
+
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.header{
+    width: 100%;
+    height: 5%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header .bars{
+    display: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu{
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu ul li{
+   margin-left:42px;
+}
+
+.menu ul li:nth-child(3){
+   width: 90px;
+}
+
+
+.menu-btn button:first-child{
+    margin: 0 24px 0 46px;
+}
+
+.banner{
+    margin-top: 180px;
+    background: url(./assets/images/bg-hero.png) no-repeat bottom;
+    padding-bottom: 150px;
+}
+
+.banner__content{
+    margin: auto;
+    font-weight: bold;
+}
+.banner__heading {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.banner__des{
+   margin-top: 30px;
+   opacity: 0.8;
+}
+
+.intro .container{
+    justify-content: space-between;
+}
+
+
+.intro__content{
+    padding-bottom: 100px;
+}
+
+.intro__title{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+.intro__detail{
+    font-size: 15px;
+    margin-top: 43px;
+    max-width: 530px;
+    opacity: 0.8;
+    line-height: 1.5;
+}
+
+.intro__des{
+    opacity: 0.9;
+}
+
+.info{
+    margin-top: 155px;
+}
+
+.info__title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.info__wavy{
+    position: relative;
+    background: url(./assets/images/wavy-bg.png) no-repeat bottom ;
+    height: 350px;
+}
+
+.info .container{
+    justify-content: space-between;
+    align-items: unset;
+    position: relative;
+}
+
+.info__NFT{
+   width: 410px;
+}
+
+.info__NFT h3{
+    line-height: 72px;
+}
+
+.info__NFT p{
+    line-height: 1.5;
+}
+
+.info__wavy-item1{
+    position: absolute;
+    left: 376px;
+    top: 4px;
+}
+.info__wavy-item2{
+    position: absolute;
+    left: 555px;
+    top: 132px;
+}
+.info__wavy-item3{
+    position: absolute;
+    left: 720px;
+    top: 137px;
+}
+.info__wavy-item4{
+    position: absolute;
+    left: 975px;
+    top: 155px
+}
+
+.info__wavy-item5{
+    position: absolute;
+    left: 1250px;
+    top: 104px;
+}
+.info__wavy-item6{
+    position: absolute;
+    left: 1522px;
+    top: -7px;
+}
+
+.info__block{
+    display: flex;
+}
+
+.block__left{
+    margin: auto 0;
+}
+
+.block__right{
+    margin-left: 50px;
+}
+
+.info__block-item{
+    height: 160px;
+    width: 325px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.ecosystem .container{
+    margin-top: 100px;
+}
+
+.nextsteps{
+    margin-top: 150px;
+}
+
+.nextsteps__roadmap{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+   
+}
+
+.nextsteps .section__des{
+    margin-bottom: 70px;
+}
+
+.step {
+    width: 100%;
+}
+
+.step div{
+    display: flex;
+    align-items: center;
+}
+
+.step .line{
+    width: 100%;
+    height: 1px;
+    background-color: #8da4ed;
+    border: 1px solid #8da4ed;
+}
+
+.step ul li:first-child{
+    font-weight: bold;
+}
+
+.step ul li{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.partner{
+   margin-top: 110px;
+}
+
+.partner__list{
+    display: grid;
+    grid-template: 1fr 1fr / 25% 25% 25% 25%;
+    text-align: center;
+}
+
+.community{
+    margin-top: 150px;
+}
+
+.community__list{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    column-gap: 50px;
+    row-gap: 30px;
+    justify-content: center;
+}
+.community__list-box{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    padding: 10px 15px;
+    align-items: center;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+}
+
+.community__list-box .social{
+    padding-left: 10px;
+}
+
+.subcription{
+    margin-top: 110px;
+}
+.subcription .container{
+    background-image: linear-gradient(180deg,hsla(0,0%,100%,0),#d2e8ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.subcription .subcription__title{
+    font-size: 40px;
+}
+
+form{
+    position: relative;
+    width: 755px;
+    margin: 30px 0;
+}
+
+form input{
+    border: 1px solid #8296f6;
+    border-radius: 10px;
+    width: 100%;
+    height: 81px;
+}
+
+::placeholder{
+    color: #395ce0;
+    padding-left: 40px;
+    font-size: 18px;
+}
+form button{
+    position: absolute;
+    top: 211px;
+    right: 12px;
+}
+
+.footer{
+    margin-top: 55px;
+}
+
+.footer .container{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+.footer .social a{
+    color: black;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.footer nav a{
+    color: black;
+    font-weight: bold;
+}
+
+.footer__bottom{
+    color: #767676;
+    font-size: 12px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.modal{
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+@media (max-width: 576px){
+    .wrapper{
+      width: 100%;
+    }
+
+    .container{
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .header{
+       height: 60px;
+    }
+
+    .header .menu{
+        display: none;
+    }
+
+    .header .bars {
+        display: block;
+        float: right;
+        font-size: 35px;
+        margin-top: -50px;
+        color: var(--blue);
+    }
+
+    .banner {
+        margin-top: 60px;
+        background: none;
+        padding: 0;
+    }
+
+    .banner .hero-img{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .banner__heading{
+        font-size: 35px;
+        text-align: left;
+    }
+
+    .banner__des{
+        margin-top: 20px;
+    }
+
+    .image-bg{
+        width: 100%;
+    }
+
+    .intro__content{
+        padding: 0;
+    }
+
+    .intro__title, .info__title, .section__title{
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .intro__des{
+        display: none;
+    }
+
+    .intro__detail{
+        font-size: 16px;
+    }
+
+    .intro img{
+        width: 100%;
+    }
+
+    .info{
+        margin-top: 0;
+    }
+    .info-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .info__wavy{
+        position: relative;
+        background: url(./assets/images/wavy-bg.png) no-repeat 75% ;
+        height: 300px;
+    }
+
+    .info__wavy-item2, .info__wavy-item4, .info__wavy-item6{
+        display: none;
+    }
+
+    .info__wavy-item1 {
+        left: 0;
+        top: 0;
+    }
+
+    .info__wavy-item3{
+        left: 30%;
+        top: 20%;
+    }
+    
+    .info__wavy-item5{
+        left: 60%;
+        top: 40%;
+    }
+
+    .info__NFT{
+        display: none;
+    }
+
+    .block__right{
+       margin-left: 25px;
+    }
+
+    .info__block{
+        justify-content: center;
+    }
+
+    .info__block-item{
+        width: 153px;
+        height: 160px;
+        font-size: 16px; 
+    }
+
+    .section__des{
+        display: none;
+    }
+
+    .ecosystem{
+        margin-top: 50px;
+    }
+
+    .encosystem__img img{
+        width: 100%;
+    }
+
+   .nextsteps{
+       margin-top: 50px;
+   }
+
+    .nextsteps__roadmap{
+        flex-direction: column;
+    }
+    
+    .step{
+        display: flex;
+    }
+    .step div{
+        flex-direction: column;
+    }
+    .step .line{
+        height: 100%;
+        width: 1px;
+    }
+
+    .step ul{
+        margin-left: 22px;
+    }
+
+    .step ul li{
+        margin-bottom: 10px;
+    }
+    
+    .step ul li:first-child{
+        margin-bottom: 20px;
+    }
+
+    .arrow{
+        display: none;
+    }
+    
+    .partner{
+        margin-top: 50px;
+    }
+    .partner__list{
+        grid-template-columns: repeat(2,50%);
+        gap: 0;
+    }
+
+    .partner__list img{
+        width: 80%;
+    }
+
+    .community{
+        margin-top: 50px;
+    }
+
+    .community__list{
+        grid-template: 33.33% 1fr 33.33%/ 50% 50%;
+        gap: 20px;
+    }
+
+    .community__list-box{
+        text-align: center;
+        grid-template-columns: 100%;
+        font-size: 16px;
+    }
+    
+    .community__list-box img{
+        margin: auto;
+    }
+
+    .subcription {
+       padding: 0 16px;
+       margin-top: 50px;
+    }
+
+    .subcription .subcription__title{
+        font-size: 34px;
+        margin-bottom: 50px;
+    }
+
+    .signup button{
+        top: 112px;
+        right: 18px;
+        width: 130px;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    ::placeholder{
+        padding-left: 20px;
+    }
+
+    .footer{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .modal{
+        background-color: var(--blue);
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 100;
+        display: none;
+    }
+
+    .active{
+        display: block;
+    }
+    
+    .modal__menu-list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 150px 0;
+    }
+
+    .menu-item{
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .menu-item a{
+        color: #fff;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .wrapper{
+        width: 100%;
+    }
+  
+    .container{
+        width: 100%;
+        padding: 0 16px;
+    }
+  
+    .flex{
+        display: block;
+    }
+
+    .header{
+        height: 60px;
+    }
+
+    .header .menu{
+        display: none;
+    }
+
+    .header .bars {
+        display: block;
+        float: right;
+        font-size: 35px;
+        margin-top: -50px;
+        color: var(--blue);
+    }
+
+    .banner {
+        margin-top: 60px;
+        background: none;
+        padding: 0;
+    }
+
+    .banner .hero-img{
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .banner__heading{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .banner__des{
+        margin-top: 20px;
+    }
+
+    .image-bg{
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .intro__content{
+        padding: 0;
+    }
+
+    .intro__title, .info__title, .section__title{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .intro__des{
+        display: none;
+    }
+
+    .intro__detail{
+        font-size: 16px;
+    }
+
+    .intro img{
+        width: 75%;
+    }
+
+    .info{
+        margin-top: 0;
+    }
+    .info-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .info__wavy{
+        position: relative;
+        background: url(./assets/images/wavy-bg.png) no-repeat 50% ;
+        height: 300px;
+    }
+
+    .info__wavy-item1 {
+        left: 0 ;
+        top: -15%;
+    }
+    .info__wavy-item2 {
+        left: 13%;
+        top: 22%;
+    }
+    .info__wavy-item4 {
+        left: 50%;
+        top: 33%;
+    }
+    
+    .info__wavy-item6 {
+        top: -20%;
+        left: 87%;
+    }
+    
+    .info__wavy-item3{
+        left: 25%;
+        top: 20%;
+    }
+    
+    .info__wavy-item5{
+        left: 60%;
+        top: 40%;
+    }
+
+    .info__NFT{
+        display: none;
+    }
+
+    .block__right{
+       margin-left: 25px;
+    }
+
+    .info__block{
+        justify-content: center;
+    }
+
+    .info__block-item{
+        font-size: 16px; 
+    }
+
+    .section__des{
+        display: none;
+    }
+
+    .ecosystem{
+        margin-top: 50px;
+    }
+
+    .encosystem__img img{
+        width: 100%;
+    }
+
+   .nextsteps{
+       margin-top: 50px;
+   }
+
+    .step ul li{
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 2;
+    }
+    
+    .step ul li:first-child{
+        margin-bottom: 25px;
+    }
+
+    
+    .partner{
+        margin-top: 150px;
+    }
+    .partner__list{
+        grid-template-columns: repeat(2,50%);
+        gap: 0;
+    }
+
+   
+    .community{
+        margin-top: 150px;
+    }
+
+    .community__list{
+        grid-template: 25% 25% 25%/ 1fr 1fr;
+        gap: 20px;
+    }
+
+    .community__list-box{
+        font-size: 16px;
+    }
+    
+    .community__list-box img{
+        margin: auto;
+    }
+
+    .subcription {
+       padding: 0 16px;
+       margin-top: 50px;
+    }
+
+    .subcription .subcription__title{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .signup button{
+        top: 66%;
+        right: 4%;
+        width: 185px;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    ::placeholder{
+        padding-left: 20px;
+    }
+
+    .footer{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .modal{
+        background-color: var(--blue);
+        position: fixed;
+        top: 60px;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 100;
+        display: none;
+    }
+
+    .active{
+        display: block;
+    }
+    
+    .modal__menu-list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 150px 0;
+    }
+
+    .menu-item{
+        font-size: 24px;
+        padding: 10px;
+    }
+
+    .menu-item a{
+        color: #fff;
+    }
+  
+}
